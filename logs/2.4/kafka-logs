@@ -1,0 +1,919 @@
+[2019-11-28 18:35:35,222] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2019-11-28 18:35:35,623] INFO Registered signal handlers for TERM, INT, HUP (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2019-11-28 18:35:35,624] INFO starting (kafka.server.KafkaServer)
+[2019-11-28 18:35:35,625] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2019-11-28 18:35:35,638] INFO [ZooKeeperClient Kafka server] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2019-11-28 18:35:35,642] INFO Client environment:zookeeper.version=3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf, built on 03/06/2019 16:18 GMT (org.apache.zookeeper.ZooKeeper)
+[2019-11-28 18:35:35,642] INFO Client environment:host.name=maks-VirtualBox (org.apache.zookeeper.ZooKeeper)
+[2019-11-28 18:35:35,642] INFO Client environment:java.version=1.8.0_222 (org.apache.zookeeper.ZooKeeper)
+[2019-11-28 18:35:35,642] INFO Client environment:java.vendor=Private Build (org.apache.zookeeper.ZooKeeper)
+[2019-11-28 18:35:35,642] INFO Client environment:java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre (org.apache.zookeeper.ZooKeeper)
+[2019-11-28 18:35:35,642] INFO Client environment:java.class.path=/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/activation-1.1.1.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/aopalliance-repackaged-2.5.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/argparse4j-0.7.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/audience-annotations-0.5.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/commons-lang3-3.8.1.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/connect-api-2.3.1.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/connect-basic-auth-extension-2.3.1.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/connect-file-2.3.1.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/connect-json-2.3.1.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/connect-runtime-2.3.1.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/connect-transforms-2.3.1.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/guava-20.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/hk2-api-2.5.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/hk2-locator-2.5.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/hk2-utils-2.5.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jackson-annotations-2.10.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jackson-core-2.10.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jackson-databind-2.10.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jackson-dataformat-csv-2.10.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jackson-datatype-jdk8-2.10.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jackson-jaxrs-base-2.10.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jackson-jaxrs-json-provider-2.10.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jackson-module-jaxb-annotations-2.10.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jackson-module-paranamer-2.10.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jackson-module-scala_2.11-2.10.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jakarta.activation-api-1.2.1.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jakarta.annotation-api-1.3.4.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jakarta.inject-2.5.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jakarta.ws.rs-api-2.1.5.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/javassist-3.22.0-CR2.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/javax.servlet-api-3.1.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/javax.ws.rs-api-2.1.1.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jaxb-api-2.3.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jersey-client-2.28.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jersey-common-2.28.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jersey-container-servlet-2.28.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jersey-container-servlet-core-2.28.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jersey-hk2-2.28.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jersey-media-jaxb-2.28.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jersey-server-2.28.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jetty-client-9.4.18.v20190429.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jetty-continuation-9.4.18.v20190429.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jetty-http-9.4.18.v20190429.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jetty-io-9.4.18.v20190429.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jetty-security-9.4.18.v20190429.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jetty-server-9.4.18.v20190429.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jetty-servlet-9.4.18.v20190429.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jetty-servlets-9.4.18.v20190429.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jetty-util-9.4.18.v20190429.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jopt-simple-5.0.4.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/jsr305-3.0.2.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/kafka_2.11-2.3.1.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/kafka_2.11-2.3.1-sources.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/kafka-clients-2.3.1.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/kafka-log4j-appender-2.3.1.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/kafka-streams-2.3.1.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/kafka-streams-examples-2.3.1.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/kafka-streams-scala_2.11-2.3.1.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/kafka-streams-test-utils-2.3.1.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/kafka-tools-2.3.1.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/log4j-1.2.17.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/lz4-java-1.6.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/maven-artifact-3.6.1.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/metrics-core-2.2.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/paranamer-2.8.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/plexus-utils-3.2.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/reflections-0.9.11.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/rocksdbjni-5.18.3.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/scala-library-2.11.12.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/scala-logging_2.11-3.9.0.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/scala-reflect-2.11.12.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/slf4j-api-1.7.26.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/slf4j-log4j12-1.7.26.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/snappy-java-1.1.7.3.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/spotbugs-annotations-3.1.9.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/validation-api-2.0.1.Final.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/zkclient-0.11.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/zookeeper-3.4.14.jar:/home/maks/projects/bdp/bdp3/code/mysimbdp/kafka-2.3.1/bin/../libs/zstd-jni-1.4.0-1.jar (org.apache.zookeeper.ZooKeeper)
+[2019-11-28 18:35:35,644] INFO Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
+[2019-11-28 18:35:35,645] INFO Client environment:java.io.tmpdir=/tmp (org.apache.zookeeper.ZooKeeper)
+[2019-11-28 18:35:35,645] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2019-11-28 18:35:35,645] INFO Client environment:os.name=Linux (org.apache.zookeeper.ZooKeeper)
+[2019-11-28 18:35:35,645] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2019-11-28 18:35:35,645] INFO Client environment:os.version=5.0.0-36-generic (org.apache.zookeeper.ZooKeeper)
+[2019-11-28 18:35:35,645] INFO Client environment:user.name=maks (org.apache.zookeeper.ZooKeeper)
+[2019-11-28 18:35:35,645] INFO Client environment:user.home=/home/maks (org.apache.zookeeper.ZooKeeper)
+[2019-11-28 18:35:35,645] INFO Client environment:user.dir=/home/maks/projects/bdp/bdp3/code (org.apache.zookeeper.ZooKeeper)
+[2019-11-28 18:35:35,646] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@692f203f (org.apache.zookeeper.ZooKeeper)
+[2019-11-28 18:35:35,656] INFO [ZooKeeperClient Kafka server] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-11-28 18:35:35,658] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-11-28 18:35:35,661] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-11-28 18:35:35,677] INFO Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x10001e5ed690000, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2019-11-28 18:35:35,680] INFO [ZooKeeperClient Kafka server] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-11-28 18:35:35,985] INFO Cluster ID = dQUK6WsCTjazdUfbBbbcDw (kafka.server.KafkaServer)
+[2019-11-28 18:35:36,086] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.3-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.3-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = LogAppendTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 3000000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 3
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = [DEFAULT]
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2019-11-28 18:35:36,099] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.3-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.3-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = LogAppendTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 3000000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 3
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = [DEFAULT]
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2019-11-28 18:35:36,168] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-28 18:35:36,169] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-28 18:35:36,169] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-28 18:35:36,197] INFO Loading logs. (kafka.log.LogManager)
+[2019-11-28 18:35:36,249] INFO [Log partition=__consumer_offsets-32, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,257] INFO [Log partition=__consumer_offsets-32, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 42 ms (kafka.log.Log)
+[2019-11-28 18:35:36,269] INFO [Log partition=__consumer_offsets-12, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,269] INFO [Log partition=__consumer_offsets-12, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 7 ms (kafka.log.Log)
+[2019-11-28 18:35:36,372] INFO [Log partition=__consumer_offsets-2, dir=/tmp/kafka-logs] Loading producer state till offset 3 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,376] INFO [ProducerStateManager partition=__consumer_offsets-2] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-2/00000000000000000003.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,383] INFO [Log partition=__consumer_offsets-2, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 3 in 111 ms (kafka.log.Log)
+[2019-11-28 18:35:36,391] INFO [Log partition=__consumer_offsets-35, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,392] INFO [Log partition=__consumer_offsets-35, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 6 ms (kafka.log.Log)
+[2019-11-28 18:35:36,401] INFO [Log partition=__consumer_offsets-19, dir=/tmp/kafka-logs] Loading producer state till offset 6 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,401] INFO [ProducerStateManager partition=__consumer_offsets-19] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-19/00000000000000000006.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,401] INFO [Log partition=__consumer_offsets-19, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 6 in 7 ms (kafka.log.Log)
+[2019-11-28 18:35:36,409] INFO [Log partition=__consumer_offsets-22, dir=/tmp/kafka-logs] Loading producer state till offset 6 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,409] INFO [ProducerStateManager partition=__consumer_offsets-22] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-22/00000000000000000006.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,410] INFO [Log partition=__consumer_offsets-22, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 6 in 6 ms (kafka.log.Log)
+[2019-11-28 18:35:36,418] INFO [Log partition=__consumer_offsets-0, dir=/tmp/kafka-logs] Loading producer state till offset 3 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,418] INFO [ProducerStateManager partition=__consumer_offsets-0] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-0/00000000000000000003.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,418] INFO [Log partition=__consumer_offsets-0, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 3 in 6 ms (kafka.log.Log)
+[2019-11-28 18:35:36,425] INFO [Log partition=__consumer_offsets-39, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,425] INFO [Log partition=__consumer_offsets-39, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 5 ms (kafka.log.Log)
+[2019-11-28 18:35:36,434] INFO [Log partition=__consumer_offsets-26, dir=/tmp/kafka-logs] Loading producer state till offset 3 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,434] INFO [ProducerStateManager partition=__consumer_offsets-26] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-26/00000000000000000003.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,435] INFO [Log partition=__consumer_offsets-26, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 3 in 7 ms (kafka.log.Log)
+[2019-11-28 18:35:36,443] INFO [Log partition=__consumer_offsets-43, dir=/tmp/kafka-logs] Loading producer state till offset 6 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,443] INFO [ProducerStateManager partition=__consumer_offsets-43] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-43/00000000000000000006.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,443] INFO [Log partition=__consumer_offsets-43, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 6 in 7 ms (kafka.log.Log)
+[2019-11-28 18:35:36,451] INFO [Log partition=__consumer_offsets-33, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,451] INFO [Log partition=__consumer_offsets-33, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 6 ms (kafka.log.Log)
+[2019-11-28 18:35:36,457] INFO [Log partition=__consumer_offsets-7, dir=/tmp/kafka-logs] Loading producer state till offset 6 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,458] INFO [ProducerStateManager partition=__consumer_offsets-7] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-7/00000000000000000006.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,458] INFO [Log partition=__consumer_offsets-7, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 6 in 5 ms (kafka.log.Log)
+[2019-11-28 18:35:36,466] INFO [Log partition=__consumer_offsets-13, dir=/tmp/kafka-logs] Loading producer state till offset 6 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,466] INFO [ProducerStateManager partition=__consumer_offsets-13] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-13/00000000000000000006.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,467] INFO [Log partition=__consumer_offsets-13, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 6 in 7 ms (kafka.log.Log)
+[2019-11-28 18:35:36,474] INFO [Log partition=__consumer_offsets-37, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,475] INFO [Log partition=__consumer_offsets-37, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 7 ms (kafka.log.Log)
+[2019-11-28 18:35:36,487] INFO [Log partition=__consumer_offsets-17, dir=/tmp/kafka-logs] Loading producer state till offset 3 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,488] INFO [ProducerStateManager partition=__consumer_offsets-17] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-17/00000000000000000003.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,488] INFO [Log partition=__consumer_offsets-17, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 3 in 12 ms (kafka.log.Log)
+[2019-11-28 18:35:36,498] INFO [Log partition=__consumer_offsets-16, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,498] INFO [Log partition=__consumer_offsets-16, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 8 ms (kafka.log.Log)
+[2019-11-28 18:35:36,505] INFO [Log partition=__consumer_offsets-29, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,505] INFO [Log partition=__consumer_offsets-29, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 5 ms (kafka.log.Log)
+[2019-11-28 18:35:36,514] INFO [Log partition=__consumer_offsets-47, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,514] INFO [Log partition=__consumer_offsets-47, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 7 ms (kafka.log.Log)
+[2019-11-28 18:35:36,520] INFO [Log partition=__consumer_offsets-20, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,521] INFO [Log partition=__consumer_offsets-20, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 5 ms (kafka.log.Log)
+[2019-11-28 18:35:36,528] INFO [Log partition=__consumer_offsets-10, dir=/tmp/kafka-logs] Loading producer state till offset 3 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,529] INFO [ProducerStateManager partition=__consumer_offsets-10] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-10/00000000000000000003.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,529] INFO [Log partition=__consumer_offsets-10, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 3 in 7 ms (kafka.log.Log)
+[2019-11-28 18:35:36,537] INFO [Log partition=__consumer_offsets-36, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,537] INFO [Log partition=__consumer_offsets-36, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 7 ms (kafka.log.Log)
+[2019-11-28 18:35:36,545] INFO [Log partition=__consumer_offsets-31, dir=/tmp/kafka-logs] Loading producer state till offset 3 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,545] INFO [ProducerStateManager partition=__consumer_offsets-31] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-31/00000000000000000003.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,545] INFO [Log partition=__consumer_offsets-31, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 3 in 6 ms (kafka.log.Log)
+[2019-11-28 18:35:36,551] INFO [Log partition=taxis_out-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,551] INFO [Log partition=taxis_out-0, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 4 ms (kafka.log.Log)
+[2019-11-28 18:35:36,558] INFO [Log partition=__consumer_offsets-27, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,558] INFO [Log partition=__consumer_offsets-27, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 6 ms (kafka.log.Log)
+[2019-11-28 18:35:36,566] INFO [Log partition=__consumer_offsets-14, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,568] INFO [Log partition=__consumer_offsets-14, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 9 ms (kafka.log.Log)
+[2019-11-28 18:35:36,575] INFO [Log partition=__consumer_offsets-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,576] INFO [Log partition=__consumer_offsets-1, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 7 ms (kafka.log.Log)
+[2019-11-28 18:35:36,584] INFO [Log partition=__consumer_offsets-45, dir=/tmp/kafka-logs] Loading producer state till offset 3 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,584] INFO [ProducerStateManager partition=__consumer_offsets-45] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-45/00000000000000000003.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,585] INFO [Log partition=__consumer_offsets-45, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 3 in 8 ms (kafka.log.Log)
+[2019-11-28 18:35:36,601] INFO [Log partition=taxis_in-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,602] INFO [Log partition=taxis_in-1, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 9 ms (kafka.log.Log)
+[2019-11-28 18:35:36,616] INFO [Log partition=__consumer_offsets-44, dir=/tmp/kafka-logs] Loading producer state till offset 3 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,616] INFO [ProducerStateManager partition=__consumer_offsets-44] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-44/00000000000000000003.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,616] INFO [Log partition=__consumer_offsets-44, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 3 in 13 ms (kafka.log.Log)
+[2019-11-28 18:35:36,626] INFO [Log partition=__consumer_offsets-8, dir=/tmp/kafka-logs] Loading producer state till offset 3 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,627] INFO [ProducerStateManager partition=__consumer_offsets-8] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-8/00000000000000000003.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,627] INFO [Log partition=__consumer_offsets-8, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 3 in 8 ms (kafka.log.Log)
+[2019-11-28 18:35:36,634] INFO [Log partition=__consumer_offsets-49, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,634] INFO [Log partition=__consumer_offsets-49, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 6 ms (kafka.log.Log)
+[2019-11-28 18:35:36,641] INFO [Log partition=__consumer_offsets-42, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,641] INFO [Log partition=__consumer_offsets-42, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 6 ms (kafka.log.Log)
+[2019-11-28 18:35:36,647] INFO [Log partition=__consumer_offsets-38, dir=/tmp/kafka-logs] Loading producer state till offset 3 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,647] INFO [ProducerStateManager partition=__consumer_offsets-38] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-38/00000000000000000003.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,648] INFO [Log partition=__consumer_offsets-38, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 3 in 6 ms (kafka.log.Log)
+[2019-11-28 18:35:36,655] INFO [Log partition=__consumer_offsets-41, dir=/tmp/kafka-logs] Loading producer state till offset 3 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,655] INFO [ProducerStateManager partition=__consumer_offsets-41] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-41/00000000000000000003.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,655] INFO [Log partition=__consumer_offsets-41, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 3 in 6 ms (kafka.log.Log)
+[2019-11-28 18:35:36,661] INFO [Log partition=taxis_out-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,662] INFO [Log partition=taxis_out-1, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 6 ms (kafka.log.Log)
+[2019-11-28 18:35:36,670] INFO [Log partition=__consumer_offsets-21, dir=/tmp/kafka-logs] Loading producer state till offset 3 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,671] INFO [ProducerStateManager partition=__consumer_offsets-21] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-21/00000000000000000003.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,671] INFO [Log partition=__consumer_offsets-21, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 3 in 8 ms (kafka.log.Log)
+[2019-11-28 18:35:36,680] INFO [Log partition=__consumer_offsets-25, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,680] INFO [Log partition=__consumer_offsets-25, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 8 ms (kafka.log.Log)
+[2019-11-28 18:35:36,692] INFO [Log partition=__consumer_offsets-5, dir=/tmp/kafka-logs] Loading producer state till offset 3 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,693] INFO [ProducerStateManager partition=__consumer_offsets-5] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-5/00000000000000000003.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,693] INFO [Log partition=__consumer_offsets-5, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 3 in 12 ms (kafka.log.Log)
+[2019-11-28 18:35:36,699] INFO [Log partition=taxis_in-2, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,699] INFO [Log partition=taxis_in-2, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 5 ms (kafka.log.Log)
+[2019-11-28 18:35:36,706] INFO [Log partition=__consumer_offsets-24, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,706] INFO [Log partition=__consumer_offsets-24, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 6 ms (kafka.log.Log)
+[2019-11-28 18:35:36,713] INFO [Log partition=__consumer_offsets-34, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,713] INFO [Log partition=__consumer_offsets-34, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 6 ms (kafka.log.Log)
+[2019-11-28 18:35:36,719] INFO [Log partition=__consumer_offsets-11, dir=/tmp/kafka-logs] Loading producer state till offset 3 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,720] INFO [ProducerStateManager partition=__consumer_offsets-11] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-11/00000000000000000003.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,720] INFO [Log partition=__consumer_offsets-11, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 3 in 6 ms (kafka.log.Log)
+[2019-11-28 18:35:36,725] INFO [Log partition=__consumer_offsets-23, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,725] INFO [Log partition=__consumer_offsets-23, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 4 ms (kafka.log.Log)
+[2019-11-28 18:35:36,744] INFO [Log partition=__consumer_offsets-6, dir=/tmp/kafka-logs] Loading producer state till offset 6 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,745] INFO [ProducerStateManager partition=__consumer_offsets-6] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-6/00000000000000000006.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,745] INFO [Log partition=__consumer_offsets-6, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 6 in 18 ms (kafka.log.Log)
+[2019-11-28 18:35:36,750] INFO [Log partition=__consumer_offsets-30, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,750] INFO [Log partition=__consumer_offsets-30, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 4 ms (kafka.log.Log)
+[2019-11-28 18:35:36,757] INFO [Log partition=__consumer_offsets-15, dir=/tmp/kafka-logs] Loading producer state till offset 3 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,757] INFO [ProducerStateManager partition=__consumer_offsets-15] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-15/00000000000000000003.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,757] INFO [Log partition=__consumer_offsets-15, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 3 in 6 ms (kafka.log.Log)
+[2019-11-28 18:35:36,764] INFO [Log partition=__consumer_offsets-46, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,764] INFO [Log partition=__consumer_offsets-46, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 6 ms (kafka.log.Log)
+[2019-11-28 18:35:36,769] INFO [Log partition=__consumer_offsets-9, dir=/tmp/kafka-logs] Loading producer state till offset 6 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,770] INFO [ProducerStateManager partition=__consumer_offsets-9] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-9/00000000000000000006.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,770] INFO [Log partition=__consumer_offsets-9, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 6 in 5 ms (kafka.log.Log)
+[2019-11-28 18:35:36,778] INFO [Log partition=__consumer_offsets-18, dir=/tmp/kafka-logs] Loading producer state till offset 3 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,778] INFO [ProducerStateManager partition=__consumer_offsets-18] Loading producer state from snapshot file '/tmp/kafka-logs/__consumer_offsets-18/00000000000000000003.snapshot' (kafka.log.ProducerStateManager)
+[2019-11-28 18:35:36,778] INFO [Log partition=__consumer_offsets-18, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 3 in 7 ms (kafka.log.Log)
+[2019-11-28 18:35:36,784] INFO [Log partition=taxis_in-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,786] INFO [Log partition=taxis_in-0, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 6 ms (kafka.log.Log)
+[2019-11-28 18:35:36,795] INFO [Log partition=__consumer_offsets-4, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,796] INFO [Log partition=__consumer_offsets-4, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 9 ms (kafka.log.Log)
+[2019-11-28 18:35:36,807] INFO [Log partition=__consumer_offsets-28, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,837] INFO [Log partition=__consumer_offsets-28, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 41 ms (kafka.log.Log)
+[2019-11-28 18:35:36,843] INFO [Log partition=__consumer_offsets-48, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,843] INFO [Log partition=__consumer_offsets-48, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 5 ms (kafka.log.Log)
+[2019-11-28 18:35:36,850] INFO [Log partition=__consumer_offsets-3, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,850] INFO [Log partition=__consumer_offsets-3, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 6 ms (kafka.log.Log)
+[2019-11-28 18:35:36,856] INFO [Log partition=__consumer_offsets-40, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:36,856] INFO [Log partition=__consumer_offsets-40, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 5 ms (kafka.log.Log)
+[2019-11-28 18:35:36,858] INFO Logs loading complete in 661 ms. (kafka.log.LogManager)
+[2019-11-28 18:35:36,864] INFO Starting log cleanup with a period of 3000000 ms. (kafka.log.LogManager)
+[2019-11-28 18:35:36,865] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2019-11-28 18:35:37,243] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.Acceptor)
+[2019-11-28 18:35:37,380] INFO [SocketServer brokerId=0] Created data-plane acceptor and processors for endpoint : EndPoint(null,9092,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.network.SocketServer)
+[2019-11-28 18:35:37,381] INFO [SocketServer brokerId=0] Started 1 acceptor threads for data-plane (kafka.network.SocketServer)
+[2019-11-28 18:35:37,406] INFO [ExpirationReaper-0-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:35:37,407] INFO [ExpirationReaper-0-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:35:37,408] INFO [ExpirationReaper-0-ElectPreferredLeader]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:35:37,518] INFO [ExpirationReaper-0-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:35:37,529] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2019-11-28 18:35:37,620] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.zk.KafkaZkClient)
+[2019-11-28 18:35:37,643] INFO Stat of the created znode at /brokers/ids/0 is: 2329,2329,1574958937632,1574958937632,1,0,0,72059681080147968,200,0,2329
+ (kafka.zk.KafkaZkClient)
+[2019-11-28 18:35:37,643] INFO Registered broker 0 at path /brokers/ids/0 with addresses: ArrayBuffer(EndPoint(maks-VirtualBox,9092,ListenerName(PLAINTEXT),PLAINTEXT)), czxid (broker epoch): 2329 (kafka.zk.KafkaZkClient)
+[2019-11-28 18:35:37,734] INFO [ExpirationReaper-0-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:35:37,735] INFO [ExpirationReaper-0-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:35:37,748] INFO [ExpirationReaper-0-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:35:37,842] INFO [GroupCoordinator 0]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+[2019-11-28 18:35:37,850] INFO [GroupCoordinator 0]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+[2019-11-28 18:35:37,851] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:37,963] INFO [ProducerId Manager 0]: Acquired new producerId block (brokerId:0,blockStartProducerId:32000,blockEndProducerId:32999) by writing to Zk with path version 33 (kafka.coordinator.transaction.ProducerIdManager)
+[2019-11-28 18:35:37,983] INFO [TransactionCoordinator id=0] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+[2019-11-28 18:35:37,984] INFO [TransactionCoordinator id=0] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2019-11-28 18:35:37,990] INFO [Transaction Marker Channel Manager 0]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2019-11-28 18:35:38,084] INFO [/config/changes-event-process-thread]: Starting (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-11-28 18:35:38,134] INFO [SocketServer brokerId=0] Started data-plane processors for 1 acceptors (kafka.network.SocketServer)
+[2019-11-28 18:35:38,140] INFO Kafka version: 2.3.1 (org.apache.kafka.common.utils.AppInfoParser)
+[2019-11-28 18:35:38,140] INFO Kafka commitId: 18a913733fb71c01 (org.apache.kafka.common.utils.AppInfoParser)
+[2019-11-28 18:35:38,140] INFO Kafka startTimeMs: 1574958938135 (org.apache.kafka.common.utils.AppInfoParser)
+[2019-11-28 18:35:38,142] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)
+[2019-11-28 18:35:38,424] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(__consumer_offsets-22, __consumer_offsets-30, __consumer_offsets-8, __consumer_offsets-21, __consumer_offsets-4, __consumer_offsets-27, __consumer_offsets-7, __consumer_offsets-9, __consumer_offsets-46, __consumer_offsets-25, __consumer_offsets-35, __consumer_offsets-41, __consumer_offsets-33, __consumer_offsets-23, __consumer_offsets-49, __consumer_offsets-47, __consumer_offsets-16, __consumer_offsets-28, __consumer_offsets-31, __consumer_offsets-36, __consumer_offsets-42, __consumer_offsets-3, __consumer_offsets-18, __consumer_offsets-37, __consumer_offsets-15, __consumer_offsets-24, __consumer_offsets-38, __consumer_offsets-17, __consumer_offsets-48, __consumer_offsets-19, __consumer_offsets-11, __consumer_offsets-13, __consumer_offsets-2, __consumer_offsets-43, __consumer_offsets-6, __consumer_offsets-14, __consumer_offsets-20, __consumer_offsets-0, __consumer_offsets-44, __consumer_offsets-39, __consumer_offsets-12, __consumer_offsets-45, __consumer_offsets-1, __consumer_offsets-5, __consumer_offsets-26, __consumer_offsets-29, __consumer_offsets-34, __consumer_offsets-10, __consumer_offsets-32, __consumer_offsets-40) (kafka.server.ReplicaFetcherManager)
+[2019-11-28 18:35:38,444] INFO Replica loaded for partition __consumer_offsets-0 with initial high watermark 3 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,446] INFO [Partition __consumer_offsets-0 broker=0] __consumer_offsets-0 starts at Leader Epoch 0 from offset 3. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,458] INFO Replica loaded for partition __consumer_offsets-29 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,458] INFO [Partition __consumer_offsets-29 broker=0] __consumer_offsets-29 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,469] INFO Replica loaded for partition __consumer_offsets-48 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,469] INFO [Partition __consumer_offsets-48 broker=0] __consumer_offsets-48 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,500] INFO Replica loaded for partition __consumer_offsets-10 with initial high watermark 3 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,500] INFO [Partition __consumer_offsets-10 broker=0] __consumer_offsets-10 starts at Leader Epoch 0 from offset 3. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,507] INFO Replica loaded for partition __consumer_offsets-45 with initial high watermark 3 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,507] INFO [Partition __consumer_offsets-45 broker=0] __consumer_offsets-45 starts at Leader Epoch 0 from offset 3. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,512] INFO Replica loaded for partition __consumer_offsets-26 with initial high watermark 3 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,512] INFO [Partition __consumer_offsets-26 broker=0] __consumer_offsets-26 starts at Leader Epoch 0 from offset 3. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,539] INFO Replica loaded for partition __consumer_offsets-7 with initial high watermark 6 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,539] INFO [Partition __consumer_offsets-7 broker=0] __consumer_offsets-7 starts at Leader Epoch 0 from offset 6. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,543] INFO Replica loaded for partition __consumer_offsets-42 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,543] INFO [Partition __consumer_offsets-42 broker=0] __consumer_offsets-42 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,551] INFO Replica loaded for partition __consumer_offsets-4 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,551] INFO [Partition __consumer_offsets-4 broker=0] __consumer_offsets-4 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,560] INFO Replica loaded for partition __consumer_offsets-23 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,560] INFO [Partition __consumer_offsets-23 broker=0] __consumer_offsets-23 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,568] INFO Replica loaded for partition __consumer_offsets-1 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,568] INFO [Partition __consumer_offsets-1 broker=0] __consumer_offsets-1 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,575] INFO Replica loaded for partition __consumer_offsets-20 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,575] INFO [Partition __consumer_offsets-20 broker=0] __consumer_offsets-20 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,581] INFO Replica loaded for partition __consumer_offsets-39 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,581] INFO [Partition __consumer_offsets-39 broker=0] __consumer_offsets-39 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,588] INFO Replica loaded for partition __consumer_offsets-17 with initial high watermark 3 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,588] INFO [Partition __consumer_offsets-17 broker=0] __consumer_offsets-17 starts at Leader Epoch 0 from offset 3. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,631] INFO Replica loaded for partition __consumer_offsets-36 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,631] INFO [Partition __consumer_offsets-36 broker=0] __consumer_offsets-36 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,636] INFO Replica loaded for partition __consumer_offsets-14 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,636] INFO [Partition __consumer_offsets-14 broker=0] __consumer_offsets-14 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,641] INFO Replica loaded for partition __consumer_offsets-33 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,641] INFO [Partition __consumer_offsets-33 broker=0] __consumer_offsets-33 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,649] INFO Replica loaded for partition __consumer_offsets-49 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,649] INFO [Partition __consumer_offsets-49 broker=0] __consumer_offsets-49 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,656] INFO Replica loaded for partition __consumer_offsets-11 with initial high watermark 3 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,656] INFO [Partition __consumer_offsets-11 broker=0] __consumer_offsets-11 starts at Leader Epoch 0 from offset 3. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,658] INFO Replica loaded for partition __consumer_offsets-30 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,658] INFO [Partition __consumer_offsets-30 broker=0] __consumer_offsets-30 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,664] INFO Replica loaded for partition __consumer_offsets-46 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,664] INFO [Partition __consumer_offsets-46 broker=0] __consumer_offsets-46 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,671] INFO Replica loaded for partition __consumer_offsets-27 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,671] INFO [Partition __consumer_offsets-27 broker=0] __consumer_offsets-27 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,678] INFO Replica loaded for partition __consumer_offsets-8 with initial high watermark 3 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,679] INFO [Partition __consumer_offsets-8 broker=0] __consumer_offsets-8 starts at Leader Epoch 0 from offset 3. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,681] INFO Replica loaded for partition __consumer_offsets-24 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,681] INFO [Partition __consumer_offsets-24 broker=0] __consumer_offsets-24 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,738] INFO Replica loaded for partition __consumer_offsets-43 with initial high watermark 6 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,738] INFO [Partition __consumer_offsets-43 broker=0] __consumer_offsets-43 starts at Leader Epoch 0 from offset 6. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,741] INFO Replica loaded for partition __consumer_offsets-5 with initial high watermark 3 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,741] INFO [Partition __consumer_offsets-5 broker=0] __consumer_offsets-5 starts at Leader Epoch 0 from offset 3. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,743] INFO Replica loaded for partition __consumer_offsets-21 with initial high watermark 3 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,743] INFO [Partition __consumer_offsets-21 broker=0] __consumer_offsets-21 starts at Leader Epoch 0 from offset 3. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,745] INFO Replica loaded for partition __consumer_offsets-2 with initial high watermark 3 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,746] INFO [Partition __consumer_offsets-2 broker=0] __consumer_offsets-2 starts at Leader Epoch 0 from offset 3. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,748] INFO Replica loaded for partition __consumer_offsets-40 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,748] INFO [Partition __consumer_offsets-40 broker=0] __consumer_offsets-40 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,755] INFO Replica loaded for partition __consumer_offsets-37 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,755] INFO [Partition __consumer_offsets-37 broker=0] __consumer_offsets-37 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,764] INFO Replica loaded for partition __consumer_offsets-18 with initial high watermark 3 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,764] INFO [Partition __consumer_offsets-18 broker=0] __consumer_offsets-18 starts at Leader Epoch 0 from offset 3. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,766] INFO Replica loaded for partition __consumer_offsets-34 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,766] INFO [Partition __consumer_offsets-34 broker=0] __consumer_offsets-34 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,773] INFO Replica loaded for partition __consumer_offsets-15 with initial high watermark 3 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,773] INFO [Partition __consumer_offsets-15 broker=0] __consumer_offsets-15 starts at Leader Epoch 0 from offset 3. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,777] INFO Replica loaded for partition __consumer_offsets-12 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,777] INFO [Partition __consumer_offsets-12 broker=0] __consumer_offsets-12 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,784] INFO Replica loaded for partition __consumer_offsets-31 with initial high watermark 3 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,784] INFO [Partition __consumer_offsets-31 broker=0] __consumer_offsets-31 starts at Leader Epoch 0 from offset 3. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,790] INFO Replica loaded for partition __consumer_offsets-9 with initial high watermark 6 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,790] INFO [Partition __consumer_offsets-9 broker=0] __consumer_offsets-9 starts at Leader Epoch 0 from offset 6. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,840] INFO Replica loaded for partition __consumer_offsets-47 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,840] INFO [Partition __consumer_offsets-47 broker=0] __consumer_offsets-47 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,844] INFO Replica loaded for partition __consumer_offsets-19 with initial high watermark 6 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,844] INFO [Partition __consumer_offsets-19 broker=0] __consumer_offsets-19 starts at Leader Epoch 0 from offset 6. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,847] INFO Replica loaded for partition __consumer_offsets-28 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,847] INFO [Partition __consumer_offsets-28 broker=0] __consumer_offsets-28 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,852] INFO Replica loaded for partition __consumer_offsets-38 with initial high watermark 3 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,852] INFO [Partition __consumer_offsets-38 broker=0] __consumer_offsets-38 starts at Leader Epoch 0 from offset 3. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,855] INFO Replica loaded for partition __consumer_offsets-35 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,855] INFO [Partition __consumer_offsets-35 broker=0] __consumer_offsets-35 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,861] INFO Replica loaded for partition __consumer_offsets-44 with initial high watermark 3 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,861] INFO [Partition __consumer_offsets-44 broker=0] __consumer_offsets-44 starts at Leader Epoch 0 from offset 3. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,863] INFO Replica loaded for partition __consumer_offsets-6 with initial high watermark 6 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,863] INFO [Partition __consumer_offsets-6 broker=0] __consumer_offsets-6 starts at Leader Epoch 0 from offset 6. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,865] INFO Replica loaded for partition __consumer_offsets-25 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,865] INFO [Partition __consumer_offsets-25 broker=0] __consumer_offsets-25 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,872] INFO Replica loaded for partition __consumer_offsets-16 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,872] INFO [Partition __consumer_offsets-16 broker=0] __consumer_offsets-16 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,877] INFO Replica loaded for partition __consumer_offsets-22 with initial high watermark 6 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,878] INFO [Partition __consumer_offsets-22 broker=0] __consumer_offsets-22 starts at Leader Epoch 0 from offset 6. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,880] INFO Replica loaded for partition __consumer_offsets-41 with initial high watermark 3 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,880] INFO [Partition __consumer_offsets-41 broker=0] __consumer_offsets-41 starts at Leader Epoch 0 from offset 3. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,883] INFO Replica loaded for partition __consumer_offsets-32 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,883] INFO [Partition __consumer_offsets-32 broker=0] __consumer_offsets-32 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,889] INFO Replica loaded for partition __consumer_offsets-3 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,889] INFO [Partition __consumer_offsets-3 broker=0] __consumer_offsets-3 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,896] INFO Replica loaded for partition __consumer_offsets-13 with initial high watermark 6 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,896] INFO [Partition __consumer_offsets-13 broker=0] __consumer_offsets-13 starts at Leader Epoch 0 from offset 6. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,902] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-22 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,910] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-25 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,910] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-28 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,910] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-31 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,910] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-34 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,910] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-37 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,910] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-40 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,910] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-43 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,910] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-46 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,910] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-49 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,910] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-41 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,910] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-44 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,910] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-47 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-1 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-4 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-7 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-10 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-13 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-16 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-19 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-2 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-5 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-8 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-11 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-14 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-17 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-20 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-23 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-26 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-29 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-32 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-35 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-38 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-0 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-3 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,911] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-6 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,914] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-9 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,914] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-12 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,914] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-15 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,914] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-18 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,914] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-21 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,914] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-24 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,914] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-27 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,914] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-30 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,914] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-33 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,914] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-36 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,914] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-39 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,914] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-42 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,914] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-45 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,914] INFO [GroupMetadataManager brokerId=0] Scheduling loading of offsets and group metadata from __consumer_offsets-48 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,954] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(taxis_in-0, taxis_in-1) (kafka.server.ReplicaFetcherManager)
+[2019-11-28 18:35:38,957] INFO [Log partition=taxis_in-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:38,958] INFO [Log partition=taxis_in-0, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-11-28 18:35:38,959] INFO Created log for partition taxis_in-0 in /tmp/kafka-logs with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.bytes -> 1073741824, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> LogAppendTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-11-28 18:35:38,960] INFO [Partition taxis_in-0 broker=0] No checkpointed highwatermark is found for partition taxis_in-0 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,960] INFO Replica loaded for partition taxis_in-0 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,960] INFO [Partition taxis_in-0 broker=0] taxis_in-0 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,962] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-22 in 60 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,963] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-25 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,963] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-28 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,967] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-31 in 4 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,967] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-34 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,967] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-37 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,967] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-40 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,967] INFO [Log partition=taxis_in-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:38,968] INFO [Log partition=taxis_in-1, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-11-28 18:35:38,968] INFO Created log for partition taxis_in-1 in /tmp/kafka-logs with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.bytes -> 1073741824, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> LogAppendTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-11-28 18:35:38,968] INFO [Partition taxis_in-1 broker=0] No checkpointed highwatermark is found for partition taxis_in-1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,969] INFO Replica loaded for partition taxis_in-1 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:38,969] INFO [Partition taxis_in-1 broker=0] taxis_in-1 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:38,973] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-43 in 6 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,974] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-46 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,974] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-49 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,983] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-41 in 9 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,987] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-44 in 4 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,987] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-47 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,988] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-1 in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,989] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-4 in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:38,994] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-7 in 5 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,046] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-10 in 2 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,050] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-13 in 3 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,050] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-16 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,053] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-19 in 3 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,057] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-2 in 4 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,060] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-5 in 3 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,062] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-8 in 2 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,065] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-11 in 2 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,066] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-14 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,069] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-17 in 3 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,069] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-20 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,069] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-23 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,074] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-26 in 5 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,074] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-29 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,074] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-32 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,074] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-35 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,077] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-38 in 3 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,081] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-0 in 3 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,082] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-3 in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,085] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-6 in 3 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,088] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-9 in 3 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,088] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-12 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,090] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-15 in 2 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,092] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-18 in 2 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,094] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-21 in 2 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,095] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-24 in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,095] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-27 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,096] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-30 in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,096] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-33 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,096] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-36 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,097] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-39 in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,097] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-42 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,100] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-45 in 3 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:39,100] INFO [GroupMetadataManager brokerId=0] Finished loading offsets and group metadata from __consumer_offsets-48 in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:35:41,037] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(taxis_out-0, taxis_out-1) (kafka.server.ReplicaFetcherManager)
+[2019-11-28 18:35:41,043] INFO [Log partition=taxis_out-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:41,043] INFO [Log partition=taxis_out-0, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-28 18:35:41,045] INFO Created log for partition taxis_out-0 in /tmp/kafka-logs with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.bytes -> 1073741824, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> LogAppendTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-11-28 18:35:41,045] INFO [Partition taxis_out-0 broker=0] No checkpointed highwatermark is found for partition taxis_out-0 (kafka.cluster.Partition)
+[2019-11-28 18:35:41,045] INFO Replica loaded for partition taxis_out-0 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:41,045] INFO [Partition taxis_out-0 broker=0] taxis_out-0 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:35:41,056] INFO [Log partition=taxis_out-1, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-11-28 18:35:41,056] INFO [Log partition=taxis_out-1, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-11-28 18:35:41,057] INFO Created log for partition taxis_out-1 in /tmp/kafka-logs with properties {compression.type -> producer, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.bytes -> 1073741824, retention.ms -> 604800000, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, file.delete.delay.ms -> 60000, max.compaction.lag.ms -> 9223372036854775807, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> LogAppendTime, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-11-28 18:35:41,057] INFO [Partition taxis_out-1 broker=0] No checkpointed highwatermark is found for partition taxis_out-1 (kafka.cluster.Partition)
+[2019-11-28 18:35:41,057] INFO Replica loaded for partition taxis_out-1 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-11-28 18:35:41,057] INFO [Partition taxis_out-1 broker=0] taxis_out-1 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-11-28 18:36:19,189] WARN Attempting to send response via channel for which there is no open connection, connection id 127.0.0.1:9092-127.0.0.1:48298-30 (kafka.network.Processor)
+[2019-11-28 18:36:21,969] INFO [GroupCoordinator 0]: Preparing to rebalance group console-consumer-77198 in state PreparingRebalance with old generation 0 (__consumer_offsets-23) (reason: Adding new member consumer-1-73213230-48b6-46e5-b3a7-f5e172656fae with group instanceid None) (kafka.coordinator.group.GroupCoordinator)
+[2019-11-28 18:36:22,207] INFO [GroupCoordinator 0]: Stabilized group console-consumer-77198 generation 1 (__consumer_offsets-23) (kafka.coordinator.group.GroupCoordinator)
+[2019-11-28 18:36:22,223] INFO [GroupCoordinator 0]: Assignment received from leader for group console-consumer-77198 for generation 1 (kafka.coordinator.group.GroupCoordinator)
+[2019-11-28 18:36:32,274] WARN Attempting to send response via channel for which there is no open connection, connection id 127.0.0.1:9092-127.0.0.1:48368-34 (kafka.network.Processor)
+[2019-11-28 18:36:36,556] INFO Deleted log /tmp/kafka-logs/taxis_out-0.c07ed96e0d1f43349f3cfee455224ba3-delete/00000000000000000000.log. (kafka.log.LogSegment)
+[2019-11-28 18:36:36,643] INFO Deleted offset index /tmp/kafka-logs/taxis_out-0.c07ed96e0d1f43349f3cfee455224ba3-delete/00000000000000000000.index. (kafka.log.LogSegment)
+[2019-11-28 18:36:36,644] INFO Deleted time index /tmp/kafka-logs/taxis_out-0.c07ed96e0d1f43349f3cfee455224ba3-delete/00000000000000000000.timeindex. (kafka.log.LogSegment)
+[2019-11-28 18:36:36,662] INFO Deleted log for partition taxis_out-0 in /tmp/kafka-logs/taxis_out-0.c07ed96e0d1f43349f3cfee455224ba3-delete. (kafka.log.LogManager)
+[2019-11-28 18:36:36,663] INFO Deleted log /tmp/kafka-logs/taxis_in-1.1411e41df3b34162bb5e5fcc25b813cf-delete/00000000000000000000.log. (kafka.log.LogSegment)
+[2019-11-28 18:36:36,663] INFO Deleted offset index /tmp/kafka-logs/taxis_in-1.1411e41df3b34162bb5e5fcc25b813cf-delete/00000000000000000000.index. (kafka.log.LogSegment)
+[2019-11-28 18:36:36,663] INFO Deleted time index /tmp/kafka-logs/taxis_in-1.1411e41df3b34162bb5e5fcc25b813cf-delete/00000000000000000000.timeindex. (kafka.log.LogSegment)
+[2019-11-28 18:36:36,663] INFO Deleted log for partition taxis_in-1 in /tmp/kafka-logs/taxis_in-1.1411e41df3b34162bb5e5fcc25b813cf-delete. (kafka.log.LogManager)
+[2019-11-28 18:36:36,664] INFO Deleted log /tmp/kafka-logs/taxis_out-1.a361b4f71b9244609c6b1a2e98952d94-delete/00000000000000000000.log. (kafka.log.LogSegment)
+[2019-11-28 18:36:36,664] INFO Deleted offset index /tmp/kafka-logs/taxis_out-1.a361b4f71b9244609c6b1a2e98952d94-delete/00000000000000000000.index. (kafka.log.LogSegment)
+[2019-11-28 18:36:36,664] INFO Deleted time index /tmp/kafka-logs/taxis_out-1.a361b4f71b9244609c6b1a2e98952d94-delete/00000000000000000000.timeindex. (kafka.log.LogSegment)
+[2019-11-28 18:36:36,664] INFO Deleted log for partition taxis_out-1 in /tmp/kafka-logs/taxis_out-1.a361b4f71b9244609c6b1a2e98952d94-delete. (kafka.log.LogManager)
+[2019-11-28 18:36:36,728] INFO Deleted log /tmp/kafka-logs/taxis_in-2.ade6bb5762bf4b0c899128fcc7e418a3-delete/00000000000000000000.log. (kafka.log.LogSegment)
+[2019-11-28 18:36:36,731] INFO Deleted offset index /tmp/kafka-logs/taxis_in-2.ade6bb5762bf4b0c899128fcc7e418a3-delete/00000000000000000000.index. (kafka.log.LogSegment)
+[2019-11-28 18:36:36,731] INFO Deleted time index /tmp/kafka-logs/taxis_in-2.ade6bb5762bf4b0c899128fcc7e418a3-delete/00000000000000000000.timeindex. (kafka.log.LogSegment)
+[2019-11-28 18:36:36,731] INFO Deleted log for partition taxis_in-2 in /tmp/kafka-logs/taxis_in-2.ade6bb5762bf4b0c899128fcc7e418a3-delete. (kafka.log.LogManager)
+[2019-11-28 18:36:36,788] INFO Deleted log /tmp/kafka-logs/taxis_in-0.3ef9a7f513dc4b96b35cac87565ed9b3-delete/00000000000000000000.log. (kafka.log.LogSegment)
+[2019-11-28 18:36:36,800] INFO Deleted offset index /tmp/kafka-logs/taxis_in-0.3ef9a7f513dc4b96b35cac87565ed9b3-delete/00000000000000000000.index. (kafka.log.LogSegment)
+[2019-11-28 18:36:36,801] INFO Deleted time index /tmp/kafka-logs/taxis_in-0.3ef9a7f513dc4b96b35cac87565ed9b3-delete/00000000000000000000.timeindex. (kafka.log.LogSegment)
+[2019-11-28 18:36:36,801] INFO Deleted log for partition taxis_in-0 in /tmp/kafka-logs/taxis_in-0.3ef9a7f513dc4b96b35cac87565ed9b3-delete. (kafka.log.LogManager)
+[2019-11-28 18:42:15,439] INFO [GroupCoordinator 0]: Member consumer-1-73213230-48b6-46e5-b3a7-f5e172656fae in group console-consumer-77198 has left, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+[2019-11-28 18:42:15,441] INFO [GroupCoordinator 0]: Preparing to rebalance group console-consumer-77198 in state PreparingRebalance with old generation 1 (__consumer_offsets-23) (reason: removing member consumer-1-73213230-48b6-46e5-b3a7-f5e172656fae on LeaveGroup) (kafka.coordinator.group.GroupCoordinator)
+[2019-11-28 18:42:15,450] INFO [GroupCoordinator 0]: Group console-consumer-77198 with generation 2 is now empty (__consumer_offsets-23) (kafka.coordinator.group.GroupCoordinator)
+[2019-11-28 18:42:18,706] INFO [GroupMetadataManager brokerId=0] Group console-consumer-77198 transitioned to Dead in generation 2 (kafka.coordinator.group.GroupMetadataManager)
+[2019-11-28 18:42:18,708] INFO [GroupCoordinator 0]: Removed 0 offsets associated with deleted partitions: taxis_in-0, taxis_in-1. (kafka.coordinator.group.GroupCoordinator)
+[2019-11-28 18:42:18,726] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(taxis_in-0, taxis_in-1) (kafka.server.ReplicaFetcherManager)
+[2019-11-28 18:42:18,726] INFO [ReplicaAlterLogDirsManager on broker 0] Removed fetcher for partitions Set(taxis_in-0, taxis_in-1) (kafka.server.ReplicaAlterLogDirsManager)
+[2019-11-28 18:42:18,728] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(taxis_in-0, taxis_in-1) (kafka.server.ReplicaFetcherManager)
+[2019-11-28 18:42:18,728] INFO [ReplicaAlterLogDirsManager on broker 0] Removed fetcher for partitions Set(taxis_in-0, taxis_in-1) (kafka.server.ReplicaAlterLogDirsManager)
+[2019-11-28 18:42:18,756] INFO Log for partition taxis_in-0 is renamed to /tmp/kafka-logs/taxis_in-0.1591010e636e42b896707ea076165d24-delete and is scheduled for deletion (kafka.log.LogManager)
+[2019-11-28 18:42:18,770] INFO Log for partition taxis_in-1 is renamed to /tmp/kafka-logs/taxis_in-1.23b9e95a66a548618415bec2523f8674-delete and is scheduled for deletion (kafka.log.LogManager)
+[2019-11-28 18:42:20,570] INFO [GroupCoordinator 0]: Removed 0 offsets associated with deleted partitions: taxis_out-1, taxis_out-0. (kafka.coordinator.group.GroupCoordinator)
+[2019-11-28 18:42:20,577] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(taxis_out-1, taxis_out-0) (kafka.server.ReplicaFetcherManager)
+[2019-11-28 18:42:20,577] INFO [ReplicaAlterLogDirsManager on broker 0] Removed fetcher for partitions Set(taxis_out-1, taxis_out-0) (kafka.server.ReplicaAlterLogDirsManager)
+[2019-11-28 18:42:20,578] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(taxis_out-1, taxis_out-0) (kafka.server.ReplicaFetcherManager)
+[2019-11-28 18:42:20,578] INFO [ReplicaAlterLogDirsManager on broker 0] Removed fetcher for partitions Set(taxis_out-1, taxis_out-0) (kafka.server.ReplicaAlterLogDirsManager)
+[2019-11-28 18:42:20,595] INFO Log for partition taxis_out-1 is renamed to /tmp/kafka-logs/taxis_out-1.c4297b414ec64c56b241ff698ef091d8-delete and is scheduled for deletion (kafka.log.LogManager)
+[2019-11-28 18:42:20,619] INFO Log for partition taxis_out-0 is renamed to /tmp/kafka-logs/taxis_out-0.7d4d3eccc3684d698741c1ad710121e3-delete and is scheduled for deletion (kafka.log.LogManager)
+[2019-11-28 18:42:22,989] INFO Terminating process due to signal SIGTERM (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2019-11-28 18:42:22,990] INFO [KafkaServer id=0] shutting down (kafka.server.KafkaServer)
+[2019-11-28 18:42:22,991] INFO [KafkaServer id=0] Starting controlled shutdown (kafka.server.KafkaServer)
+[2019-11-28 18:42:23,004] INFO [KafkaServer id=0] Controlled shutdown succeeded (kafka.server.KafkaServer)
+[2019-11-28 18:42:23,008] INFO [/config/changes-event-process-thread]: Shutting down (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-11-28 18:42:23,008] INFO [/config/changes-event-process-thread]: Stopped (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-11-28 18:42:23,009] INFO [/config/changes-event-process-thread]: Shutdown completed (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-11-28 18:42:23,009] INFO [SocketServer brokerId=0] Stopping socket server request processors (kafka.network.SocketServer)
+[2019-11-28 18:42:23,019] INFO [SocketServer brokerId=0] Stopped socket server request processors (kafka.network.SocketServer)
+[2019-11-28 18:42:23,019] INFO [data-plane Kafka Request Handler on Broker 0], shutting down (kafka.server.KafkaRequestHandlerPool)
+[2019-11-28 18:42:23,042] INFO [data-plane Kafka Request Handler on Broker 0], shut down completely (kafka.server.KafkaRequestHandlerPool)
+[2019-11-28 18:42:23,048] INFO [KafkaApi-0] Shutdown complete. (kafka.server.KafkaApis)
+[2019-11-28 18:42:23,049] INFO [ExpirationReaper-0-topic]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:42:23,070] INFO [ExpirationReaper-0-topic]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:42:23,070] INFO [ExpirationReaper-0-topic]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:42:23,071] INFO [TransactionCoordinator id=0] Shutting down. (kafka.coordinator.transaction.TransactionCoordinator)
+[2019-11-28 18:42:23,072] INFO [ProducerId Manager 0]: Shutdown complete: last producerId assigned 32000 (kafka.coordinator.transaction.ProducerIdManager)
+[2019-11-28 18:42:23,072] INFO [Transaction State Manager 0]: Shutdown complete (kafka.coordinator.transaction.TransactionStateManager)
+[2019-11-28 18:42:23,072] INFO [Transaction Marker Channel Manager 0]: Shutting down (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2019-11-28 18:42:23,072] INFO [Transaction Marker Channel Manager 0]: Stopped (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2019-11-28 18:42:23,072] INFO [Transaction Marker Channel Manager 0]: Shutdown completed (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2019-11-28 18:42:23,073] INFO [TransactionCoordinator id=0] Shutdown complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2019-11-28 18:42:23,073] INFO [GroupCoordinator 0]: Shutting down. (kafka.coordinator.group.GroupCoordinator)
+[2019-11-28 18:42:23,073] INFO [ExpirationReaper-0-Heartbeat]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:42:23,125] INFO [ExpirationReaper-0-Heartbeat]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:42:23,125] INFO [ExpirationReaper-0-Heartbeat]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:42:23,125] INFO [ExpirationReaper-0-Rebalance]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:42:23,326] INFO [ExpirationReaper-0-Rebalance]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:42:23,326] INFO [ExpirationReaper-0-Rebalance]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:42:23,326] INFO [GroupCoordinator 0]: Shutdown complete. (kafka.coordinator.group.GroupCoordinator)
+[2019-11-28 18:42:23,327] INFO [ReplicaManager broker=0] Shutting down (kafka.server.ReplicaManager)
+[2019-11-28 18:42:23,327] INFO [LogDirFailureHandler]: Shutting down (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2019-11-28 18:42:23,327] INFO [LogDirFailureHandler]: Stopped (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2019-11-28 18:42:23,327] INFO [LogDirFailureHandler]: Shutdown completed (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2019-11-28 18:42:23,328] INFO [ReplicaFetcherManager on broker 0] shutting down (kafka.server.ReplicaFetcherManager)
+[2019-11-28 18:42:23,328] INFO [ReplicaFetcherManager on broker 0] shutdown completed (kafka.server.ReplicaFetcherManager)
+[2019-11-28 18:42:23,328] INFO [ReplicaAlterLogDirsManager on broker 0] shutting down (kafka.server.ReplicaAlterLogDirsManager)
+[2019-11-28 18:42:23,329] INFO [ReplicaAlterLogDirsManager on broker 0] shutdown completed (kafka.server.ReplicaAlterLogDirsManager)
+[2019-11-28 18:42:23,329] INFO [ExpirationReaper-0-Fetch]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:42:23,475] INFO [ExpirationReaper-0-Fetch]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:42:23,475] INFO [ExpirationReaper-0-Fetch]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:42:23,475] INFO [ExpirationReaper-0-Produce]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:42:23,653] INFO [ExpirationReaper-0-Produce]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:42:23,653] INFO [ExpirationReaper-0-Produce]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:42:23,653] INFO [ExpirationReaper-0-DeleteRecords]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:42:23,850] INFO [ExpirationReaper-0-DeleteRecords]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:42:23,850] INFO [ExpirationReaper-0-DeleteRecords]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:42:23,850] INFO [ExpirationReaper-0-ElectPreferredLeader]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:42:23,993] INFO [ExpirationReaper-0-ElectPreferredLeader]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:42:23,993] INFO [ExpirationReaper-0-ElectPreferredLeader]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-11-28 18:42:24,002] INFO [ReplicaManager broker=0] Shut down completely (kafka.server.ReplicaManager)
+[2019-11-28 18:42:24,003] INFO Shutting down. (kafka.log.LogManager)
+[2019-11-28 18:42:24,031] INFO [ProducerStateManager partition=__consumer_offsets-23] Writing producer snapshot at offset 3 (kafka.log.ProducerStateManager)
+[2019-11-28 18:42:24,112] INFO Shutdown complete. (kafka.log.LogManager)
+[2019-11-28 18:42:24,117] INFO [ZooKeeperClient Kafka server] Closing. (kafka.zookeeper.ZooKeeperClient)
+[2019-11-28 18:42:24,121] INFO Session: 0x10001e5ed690000 closed (org.apache.zookeeper.ZooKeeper)
+[2019-11-28 18:42:24,121] INFO EventThread shut down for session: 0x10001e5ed690000 (org.apache.zookeeper.ClientCnxn)
+[2019-11-28 18:42:24,121] INFO [ZooKeeperClient Kafka server] Closed. (kafka.zookeeper.ZooKeeperClient)
+[2019-11-28 18:42:24,122] INFO [ThrottledChannelReaper-Fetch]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-28 18:42:24,454] INFO [ThrottledChannelReaper-Fetch]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-28 18:42:24,454] INFO [ThrottledChannelReaper-Fetch]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-28 18:42:24,454] INFO [ThrottledChannelReaper-Produce]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-28 18:42:25,441] INFO [ThrottledChannelReaper-Produce]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-28 18:42:25,441] INFO [ThrottledChannelReaper-Produce]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-28 18:42:25,441] INFO [ThrottledChannelReaper-Request]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-28 18:42:26,010] INFO [ThrottledChannelReaper-Request]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-28 18:42:26,010] INFO [ThrottledChannelReaper-Request]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-11-28 18:42:26,011] INFO [SocketServer brokerId=0] Shutting down socket server (kafka.network.SocketServer)
+[2019-11-28 18:42:26,051] INFO [SocketServer brokerId=0] Shutdown completed (kafka.network.SocketServer)
+[2019-11-28 18:42:26,053] INFO [KafkaServer id=0] shut down completed (kafka.server.KafkaServer)
