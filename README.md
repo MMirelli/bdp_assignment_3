@@ -34,3 +34,12 @@ code
 Follow the [deployment guide](code/README-deployment.md), to deploy this software as a standalone application in your local machine. 
 
 You may find interesting to view some [logs](logs/spark-logs) of the application.
+
+The design of the developed application can be found in ![](design/design_1.jpg). The spare architectures in [design](design) refer to extra tasks of the assignment, respectively:
+
+> Question 3.1:
+> If you would like the analytics results to be stored also into mysimbdp-coredms as the final sink, how would you modify the design and implement this (better to use a figure to explain your design). (1 point)
+> Question 3.3:
+> Assume that the streaming analytics detects a critical condition (e.g., a very high rate of alerts) that should trigger the execution of a batch analytics to analyze historical data. How would you extend your architecture in Part 1 to support this (use a figure to explain your work)?. (1 point)
+> -- <cite>HL, professor of Big Data Platform at Aalto University<cite>
+
