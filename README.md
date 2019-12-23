@@ -17,6 +17,8 @@ The spare architectures in [design](design) refer to extra tasks of the assignme
 >
 > -- <cite>HL, professor of Big Data Platform at Aalto University</cite>
 
+-------
+
 ## Project structure
 
 Once built the software is organized as represented below:
@@ -51,3 +53,5 @@ code
 Follow the [deployment guide](code/README-deployment.md), to deploy this software as a standalone application in your local machine. 
 
 You may find interesting to view some [logs](logs/2.4/spark-logs) of the application.
+
+-----
