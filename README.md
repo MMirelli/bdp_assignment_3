@@ -1,7 +1,7 @@
 # BDP - Assignment 3
 
 ## Overview
-In this project we simulate the behaviour of a streaming application executing simple analytics on input data. The dataset is a [csv file](data/taxis.csv) composed by rows representing taxis rides in New York city. What the analytics does is: calculating the realtime income per taxi's vendor.
+In this project we simulate the behaviour of a streaming application executing simple analytics on input data. The dataset is a [csv file](data/taxis.csv) composed by rows representing taxis rides in [New York city](https://data.cityofnewyork.us/Transportation/2018-Yellow-Taxi-Trip-Data/t29m-gskq). What the analytics does is: calculating the realtime income per taxi's vendor.
 
 Here is the application design
 
