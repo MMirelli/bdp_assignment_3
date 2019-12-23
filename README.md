@@ -21,7 +21,7 @@ The spare architectures in [design](design) refer to extra tasks of the assignme
 
 ## Project structure
 
-Once built the software is organized as represented below:
+Once built the software is organized as illustrated below:
 
 ```bash
 code
