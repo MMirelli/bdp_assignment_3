@@ -1,4 +1,4 @@
-# Assignment 3
+# BDP - Assignment 3
 
 In this project we simulate the behaviour of a streaming application executing simple analytics on input data. 
 

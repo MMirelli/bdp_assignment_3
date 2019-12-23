@@ -2,7 +2,7 @@
 
 ## Deployment testing
 
-This deployment has been tested on 5.3.8-3-MANJARO (Linux) and 18.04.1-Ubuntu.
+This deployment has been tested on `5.3.8-3-MANJARO` (Linux) and `18.04.1-Ubuntu`.
 
 ## Requirements
 
